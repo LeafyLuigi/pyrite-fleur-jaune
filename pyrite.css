@@ -108,26 +108,26 @@
 
 /* Feel free to edit these ones for Dark Mode */
 .theme-dark,
-.theme-dark :not(div[class*='previewContainer-']) .theme-light:not(div[class*="default-colors"]) {
-	--card-background: rgba(0, 0, 0, 0.5);
-	--side-shading: rgba(0, 0, 0, 0.5);
-	--middle-shading: rgba(0, 0, 0, 0.3);
-	--header-shading: rgba(0, 0, 0, 0.7);
+.theme-dark :not(div[class*=previewContainer_]) .theme-light:not(div[class*=layer_]):not(div[class*=userProfileOuterThemed_]) {
+	--card-background: rgba(0,0,0,0.5);
+	--side-shading: rgba(0,0,0,0.5);
+	--middle-shading: rgba(0,0,0,0.3);
+	--header-shading: rgba(0,0,0,0.7);
 
 	/* The following are applied to buttons to indicate hover and being held down. */
-	--hover-filter: rgba(0, 0, 0, 0.2);
-	--active-filter: rgba(0, 0, 0, 0.4);
+	--hover-filter: rgba(0,0,0,0.2);
+	--active-filter: rgba(0,0,0,0.4);
 }
 
 /* Feel free to edit these ones for Light Mode */
 .theme-light,
-.theme-light :not(div[class*='previewContainer-']) .theme-dark:not(div[class*='sidebar-']):not(nav[class*='guilds-']):not(div[class*='sidebarRegion-']):not(div[class*="default-colors"]) {
-	--card-background: rgba(255, 255, 255, 0.05);
-	--side-shading: rgba(255, 255, 255, 0.4);
-	--middle-shading: rgba(255, 255, 255, 0.3);
-	--header-shading: rgba(255, 255, 255, 0.5);
+.theme-light :not(div[class*=previewContainer_]) .theme-dark:not(div[class*=sidebar_]):not(nav[class*=guilds_]):not(div[class*=sidebarRegion_]):not(div[class*="default-colors"]) {
+	--card-background: rgba(255,255,255,0.05);
+	--side-shading: rgba(255,255,255,0.4);
+	--middle-shading: rgba(255,255,255,0.3);
+	--header-shading: rgba(255,255,255,0.5);
 
 	/* The following are applied to buttons to indicate hover and being held down. */
-	--hover-filter: rgba(255, 255, 255, 0.2);
-	--active-filter: rgba(255, 255, 255, 0.4);
+	--hover-filter: rgba(255,255,255,0.2);
+	--active-filter: rgba(255,255,255,0.4);
 }
